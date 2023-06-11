@@ -1,6 +1,6 @@
 {
     "name": "monobank-api-acquiring",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Пакет який надає зручний спосіб взаємодії з API Monobank для мерчантів. Цей пакет дозволяє виконувати різноманітні операції, такі як створення рахунків, отримання статусу платежу, видалення карт і багато іншого! Dmytro Fedorchuk make this pakage for you (check wepster.com service and use monobank in chatbot or business process)",
     "main": ".mongorc.js",
     "scripts": {
