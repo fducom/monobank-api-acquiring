@@ -16,7 +16,7 @@ npm install monobank-api-acquiring
 const MonoAPI = require('monobank-api-acquiring');
 
 // Ініціалізація MonoAPI з токеном та шляхом до бази даних
-const api = new MonoAPI('YOUR_TOKEN', { storage: 'redis', options: { /* налаштування Redis */ } });
+const api = new MonoAPI('YOUR_TOKEN', { storage: 'redis', redisClient: redis.createClient() });
 // Або з SQLITE
 const api = new MonoAPI('YOUR_TOKEN', { storage: 'sqlite' });
 
