@@ -33,6 +33,9 @@ api.getInvoiceStatus('p2_9ZgpZVsl3')
 
 ## Доступні методи
 
+
+
+
 ### `getInvoiceStatus(invoiceId)`
 
 Отримати статус рахунку за його ідентифікатором.
@@ -48,6 +51,12 @@ api.getInvoiceStatus('p2_9ZgpZVsl3')
 - `invoiceData` (обов'язковий) - Об'єкт з даними рахунку.
 
 Повертає об'єкт з даними створеного рахунку або кидає помилку у разі невдалого запиту.
+
+Робота з токенізованими картами
+
+### `getWallet(walletId)`
+
+### `makePaymentFromWallet(paymentData)`
 
 ### `deleteCard(cardToken)`
 
